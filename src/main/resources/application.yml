@@ -29,6 +29,11 @@ management:
       enabled: true
     livenessstate:
         enabled: true
+logging:
+     level:
+       org:
+         zalando:
+           logbook: trace
 # ENABLE BELOW FOR TROUBLESHOOTING
 #      httpserver:
 #        wiretap: true
